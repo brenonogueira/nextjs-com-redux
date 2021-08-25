@@ -34,7 +34,7 @@ export default function Home() {
         }}
       >
         <h1>Olá, {rd_github.index?.name}!</h1>
-        <img src={rd_github.index?.avatar_url} width="250" alt="" />
+        <img src={rd_github.index?.avatar_url} alt="Picture of the author" />
       </div>
     </>
   );
