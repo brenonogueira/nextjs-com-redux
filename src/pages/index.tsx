@@ -33,7 +33,7 @@ export default function Home() {
           alignItems: "center",
         }}
       >
-        <h1>Olá, {rd_github.index?.name}!</h1>
+        <h1>Olá, amigo {rd_github.index?.name}!</h1>
         <img src={rd_github.index?.avatar_url} alt="Picture of the author" />
       </div>
     </>
